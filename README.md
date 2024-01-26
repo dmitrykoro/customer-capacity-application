@@ -1,3 +1,34 @@
+# Client-Server Web Application Overview
+
+This is an example of a simple client-server web application designed as an imaginary customer capacity 
+management system. The application comprises a React client interacting with a Python backend server that 
+encapsulates the underlying database schema.
+
+## System Components
+
+### React Client Application
+- The client application is built using React and serves as the user interface for interacting with the database.
+
+### Python Backend Server
+- The Python backend server handles requests for the UI.
+
+### Database Schema
+- The database schema stores information about facilities, representing various 
+businesses or organizations, along with their respective defined maximum capacities.
+
+## Roles and Functionality
+
+### Roles
+1. **Administrator:**
+    - The Administrator role has privileged access to all facilities in the system.
+    - Administrator can edit or delete existing facilities.
+    - Administrator can register new facilities into the system.
+
+2. **Bouncer:**
+    - The Bouncer role is responsible for managing customer check-ins and check-outs.
+    - Bouncer can not register a new customer when a facility is full.
+
+
 # Project Setup and Execution Guide
 
 ## Backend Server
