@@ -1,0 +1,132 @@
+/* Style for buttons */
+.button {
+    background-color: #006699; /* bluish */
+    border: black;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #0066ff;
+    transition: 0.3s;
+}
+
+.button-red {
+    background-color: #990000; /* reddish */
+    border: black;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+.button-red:hover {
+    background-color: #ff0000;
+    transition: 0.3s;
+}
+
+.button-brown {
+    background-color: #86592d; /* brown */
+    border: black;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button-brown:hover {
+    background-color: #e64d00;
+    transition: 0.3s;
+}
+
+.button-green {
+    background-color: #275c0a;
+    border: black;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+.button-green:hover {
+    background-color: #4aaf2e;
+    transition: 0.3s;
+}
+
+/* Style for input text fields */
+input[type=text] {
+    border: 2px solid #006699;
+    border-radius: 4px;
+}
+
+select {
+    border: 2px solid #006699;
+    border-radius: 4px;
+}
+
+/* Style for data display effects */
+.data-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.data-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.data-item {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Style for pagination effects */
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+/* Individual page number link */
+.page-number {
+    margin: 0 5px;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: #f0f0f0;
+    }
+}
+
+/* Styles for the Previous and Next buttons */
+.page-number {
+    font-weight: bold;
+}
+
+/* Styles for the active page */
+.active {
+    background-color: #007bff;
+    color: #fff;
+}

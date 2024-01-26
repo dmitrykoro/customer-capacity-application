@@ -1,0 +1,6 @@
+*.pyc
+*.mdj
+.DS_store
+venv/
+.idea
+**/db.yml
